@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Settin the baseline font size */
+
+
+.navbar,
+.jumbotron,
+.footer {
+background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#111;
+background-size:16px 16px;
+}
+
+.jumbotron  {
+  border-top:1px solid #F07D2B;
+  border-bottom:1px solid #F07D2B;
+}
+
+.jumbotron h1 {
+  color: #fff;
+font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 6em;
+}
+
+
+.jumbotron p {
+font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #F07D2B;
+    font-size: 1em;
+}
+
+.jumbotron img {
+  border:1px solid #F07D2B;
+}
+
+
+
+.navbar {
+  margin-bottom:0;
+}
+
+.footer {
+  padding-top:30px;
+  border-top:1px solid #F07D2B;
+  border-bottom:1px solid #F07D2B;
+
+}
+
+.footer .well {
+  /*
+border-color:#F07D2B;
+*/
+color:#fff;
+border:none;
+background: -moz-linear-gradient(top,  rgba(30,87,153,1) 0%, rgba(125,185,232,0) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,0)));
+background: -webkit-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+background: -o-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+background: -ms-linear-gradient(top,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+background: linear-gradient(to bottom,  rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#007db9e8',GradientType=0 );
+
+
+
+}
